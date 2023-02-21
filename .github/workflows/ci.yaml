@@ -8,7 +8,7 @@ on:
   workflow_dispatch:
     inputs:
       publish_docker:
-        description: "Publish image to ghcr.io/netcracker/kubemarine. The tag will be taken from the branch name with converted / to _ symbols."
+        description: "Publish image to ghcr.io/netcracker/kubemarine"
         type: boolean
         default: false
         required: false
